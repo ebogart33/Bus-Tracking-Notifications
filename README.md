@@ -6,9 +6,8 @@ Sends a message to users based on bus route ETA through messages to a channel us
 
 1. Ensure you have access to the DoubleMap GPS bus services.
 2. Configure Slack channel and app for Slack notifications (if using Slack).
-3. Create the `config.json` file in the `Slack` directory wiht your Slack API oken.
- ```
-    json
+3. Create the `config.json` file in the `Slack` directory with your Slack API token.
+```
     {
         "slack_api_token": "your_slack_api_token"
     }
@@ -16,7 +15,6 @@ Sends a message to users based on bus route ETA through messages to a channel us
 4. Ensure you have a valid Gmail or iCloud account and set up app passwords for email to SMS notifications.
 5. Create the `credentials.json` file in the `sms` directory with your email and SMS service provider credentials.
 ```
-    json
     {
         "name": {
             "number": "name_phone_number",
